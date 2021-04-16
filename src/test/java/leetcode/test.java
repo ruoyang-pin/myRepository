@@ -2,7 +2,11 @@ package leetcode;
 
 import org.junit.Test;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 @sun.misc.Contended
 public class test {
@@ -11,7 +15,7 @@ public class test {
     @Test
     public void execute() {
 
-        System.out.println(minRefuelStops(1000000000,1000000000,new int[][]{{5,1000000000},{1000,1000000000},{100000,1000000000}}));
+        System.out.println(minRefuelStops(1000000000, 1000000000, new int[][]{{5, 1000000000}, {1000, 1000000000}, {100000, 1000000000}}));
 
     }
 
@@ -53,27 +57,73 @@ public class test {
 
         dp[0] = startFuel;
 
-        if(startFuel>=target)
+        if (startFuel >= target)
 
             return 0;
 
         for (int i = 0; i < len; i++) {
 
-            for (int j = i; j >=0; j--) {
+            for (int j = i; j >= 0; j--) {
 
-                if(dp[j]>=stations[i][0])
+                if (dp[j] >= stations[i][0])
 
-                    dp[j+1]=Math.max(dp[j+1],dp[j]+stations[i][1]);
+                    dp[j + 1] = Math.max(dp[j + 1], dp[j] + stations[i][1]);
             }
 
         }
         for (int i = 0; i < dp.length; i++) {
-            if(dp[i]>target)
+            if (dp[i] > target)
                 return i;
         }
-        return  -1;
+        return -1;
 
     }
+
+
+    /**
+     * @param price   商品价格
+     * @param special 大礼包数组
+     * @param needs   需要的商品数量
+     * @return 巧好完成采购任务且花费最低的价格
+     * @see <a href="https://leetcode-cn.com/problems/shopping-offers">
+     */
+    public int shoppingOffers(List<Integer> price, List<List<Integer>> special, List<Integer> needs) {
+
+
+        return dfs(price, special, needs);
+
+
+    }
+
+    public int dfs(List<Integer> price, List<List<Integer>> special, List<Integer> needs) {
+        int res = 0;
+        // 没有使用大礼包的时候，我们须要花多少钱
+        for (int i = 0; i < needs.size(); i++) {
+            res += needs.get(i) * price.get(i);
+        }
+
+        for (List<Integer> item : special) {
+            List<Integer> clone = new ArrayList<>(needs);
+            int j;
+            for (j = 0; j < needs.size(); j++) {
+                // 用我们须要的个数 - 大礼包里面的个数
+                int diff = clone.get(j) - item.get(j);
+                if (diff < 0) {
+                    // 须要的 < 大礼包
+                    break ;
+                }
+                // 须要的部分越来越少，set 的意思是在做减法
+                clone.set(j, diff);
+            }
+
+            // 所有都考虑完了以后
+            if (j == needs.size()) {
+                res = Math.min(res, item.get(j) + dfs(price, special, clone));
+            }
+        }
+        return res;
+    }
+
 
 
 }
