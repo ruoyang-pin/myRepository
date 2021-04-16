@@ -1,0 +1,9 @@
+
+8
+java:S1148"#Use a logger to log this exception.(ã¦“
+P
+java:S1128"5Remove this unused import 'java.nio.charset.Charset'.(ü¶ØŸýÿÿÿÿ
+B
+java:S1128
+",Remove this unused import 'java.nio.Buffer'.(î¦Ïî
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ëµÛ¡ùÿÿÿÿ
