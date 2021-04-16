@@ -9,5 +9,8 @@
         <module name="com-java-love" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com-java-love" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

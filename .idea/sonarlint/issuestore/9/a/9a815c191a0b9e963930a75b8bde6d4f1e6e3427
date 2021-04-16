@@ -1,0 +1,50 @@
+
+F
+java:S3740"/Provide the parametrized type for this generic.(é›ìÇ
+P
+java:S1191%"5Use classes from the Java API instead of Sun classes.(¸±ôöüÿÿÿÿ
+]
+java:S2184Ê"ACast one of the operands of this addition operation to a "float".(åÁûÍûÿÿÿÿ
+]
+java:S2184À"ACast one of the operands of this addition operation to a "float".(½ƒŸâşÿÿÿÿ
+[	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(½“á¶
+
+java:S1186Ú"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÏÇêºúÿÿÿÿ
+
+java:S1186‹"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÂìÎ‚øÿÿÿÿ
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‡æ­$
+@
+java:S2157	"%Add a "clone()" method to this class.(¦Ë›Õûÿÿÿÿ
+>
+java:S1948"(Make "keySet" transient or serializable.(¢«Š§
+E
+java:S1948"*Make "valueSet" transient or serializable.(û÷ƒøÿÿÿÿ
+E
+java:S1948"*Make "entrySet" transient or serializable.(ˆöÎ‡şÿÿÿÿ
+G
+java:S2387"1"keySet" is the name of a field in "AbstractMap".(¢«Š§
+@
+java:S3985"*Remove this unused private "Holder" class.(÷ÙËÁ
+˜
+java:S1186‘"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‰™¤Š
+
+java:S1186•"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ú ÿ„üÿÿÿÿ
+N
+java:S1117‚"7Rename "key" which hides the field declared at line 97.(î…öÕ
+P
+java:S1117„"9Rename "value" which hides the field declared at line 98.(—¾Şô
+L
+java:S1854ò"5Remove this useless assignment to local variable "t".(˜áóÛ
+A
+java:S1172"*Remove this unused method parameter "key".(Óşá
+[
+java:S3358Å"DExtract this nested ternary operation into an independent statement.(Ìò³å
+e
+java:S2272…"NAdd a "NoSuchElementException" for iteration beyond the end of the collection.(ˆ™³
+e
+java:S2272Œ"NAdd a "NoSuchElementException" for iteration beyond the end of the collection.(Èç•Ê
+e
+java:S2272“"NAdd a "NoSuchElementException" for iteration beyond the end of the collection.(œÑøé
+=
+java:S1481ò"&Remove this unused "t" local variable.(˜áóÛ

@@ -1,0 +1,138 @@
+
+;
+java:S1659"$Declare "hiHead" on a separate line.(‚¾Ñï
+s	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(É„”Ÿüÿÿÿÿ
+E
+java:S1121İ".Extract the assignment out of this expression.(ŞÇßí
+<
+java:S1659‡" Declare "rl" on a separate line.(£ö«ÿÿÿÿÿ
+F
+java:S2160"+Override the "equals" method in this class.(ÈÅÅûÿÿÿÿ
+J
+java:S1121‰".Extract the assignment out of this expression.(Ëÿšşüÿÿÿÿ
+>
+java:S1481¢"'Remove this unused "pl" local variable.(’«Ï†
+o	java:S135Í"YReduce the total number of break and continue statements in this loop to use at most one.(şÍ è
+s	java:S127ö"XRefactor the code in order to not assign to this loop counter from within the loop body.(å ¥ƒúÿÿÿÿ
+s	java:S127Ó"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÙÉÿ˜úÿÿÿÿ
+J
+java:S1121¤".Extract the assignment out of this expression.(ÇãŞÀùÿÿÿÿ
+7
+java:S1659ç" Declare "as" on a separate line.(ô˜Ò
+<
+java:S1659‡" Declare "pp" on a separate line.(£ö«ÿÿÿÿÿ
+<
+java:S1659²" Declare "tn" on a separate line.(ÂİÅ‡úÿÿÿÿ
+<
+java:S1659¼" Declare "hc" on a separate line.(…ÃÁüÿÿÿÿ
+B
+java:S1168“"+Return an empty collection instead of null.(¥¹ï
+n
+java:S3776Í"RRefactor this method to reduce its Cognitive Complexity from 54 to the 15 allowed.(ÑÖ¨Šÿÿÿÿÿ
+n	java:S127ñ"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÂÛæÏ
+n	java:S127‰"XRefactor the code in order to not assign to this loop counter from within the loop body.(÷ìşÎ
+J
+java:S1121ğ".Extract the assignment out of this expression.(Úî¯•ıÿÿÿÿ
+m
+java:S3776z"RRefactor this method to reduce its Cognitive Complexity from 62 to the 15 allowed.(—âúÿÿÿÿ
+<
+java:S1659ç" Declare "tl" on a separate line.(¾Õ”Ìûÿÿÿÿ
+s	java:S127¾"XRefactor the code in order to not assign to this loop counter from within the loop body.(™¦ÀŸøÿÿÿÿ
+s	java:S127Ğ"XRefactor the code in order to not assign to this loop counter from within the loop body.(ô²Æşüÿÿÿÿ
+;
+java:S1659œ"$Declare "loHead" on a separate line.(ø´ÔÎ
+J
+java:S1121‹".Extract the assignment out of this expression.(òµ•åüÿÿÿÿ
+—
+java:S1186¡"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‡æ­$
+s	java:S127Ö"XRefactor the code in order to not assign to this loop counter from within the loop body.(±÷¤”ûÿÿÿÿ
+>
+java:S1659~"#Declare "newTr" on a separate line.(Í„±·ıÿÿÿÿ
+I
+java:S1121l".Extract the assignment out of this expression.(È½šÍúÿÿÿÿ
+@
+java:S1659î"$Declare "loHead" on a separate line.(£Ì¿‚úÿÿÿÿ
+/
+java:S2178›"Correct this "&" to "&&".(ã”š
+J
+java:S1121î".Extract the assignment out of this expression.(£ëÜüÿÿÿÿ
+5
+java:S1659Á"Declare "i" on a separate line.(ĞšÃ
+i
+java:S3776ó"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(½Ãíİ
+K
+java:S3740–"/Provide the parametrized type for this generic.(Íêâúıÿÿÿÿ
+
+java:S1186œ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÂìÎ‚øÿÿÿÿ
+n	java:S127Ş"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÂÛæÏ
+J
+java:S1121¦".Extract the assignment out of this expression.(õÀğŞıÿÿÿÿ
+J
+java:S1121ï".Extract the assignment out of this expression.(åˆ»·ùÿÿÿÿ
+<
+java:S1659²" Declare "tb" on a separate line.(ÂİÅ‡úÿÿÿÿ
+=
+java:S1659ş"!Declare "idr" on a separate line.(ŠÃÅåüÿÿÿÿ
+n	java:S127ñ"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÂÛæÏ
+E
+java:S1121’".Extract the assignment out of this expression.(§‰¸ß
+n
+java:S3776¿"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(í‘ßµÿÿÿÿÿ
+G
+java:S2160"+Override the "equals" method in this class.(×î”şÿÿÿÿ
+_
+java:S3358v"DExtract this nested ternary operation into an independent statement.(†ÁŸüÿÿÿÿ
+;
+java:S1659º"$Declare "loTail" on a separate line.(¶í ³
+;
+java:S1659»"$Declare "hiTail" on a separate line.(‚™½Ñ
+X
+java:S1126Á"AReplace this if-then-else statement by a single return statement.(Ï¸ÁÖ
+<
+java:S1659‡" Declare "pr" on a separate line.(£ö«ÿÿÿÿÿ
+?
+java:S1659™"#Declare "index" on a separate line.(Ì¿±›şÿÿÿÿ
+7
+java:S1659¢" Declare "lr" on a separate line.(’«Ï†
+u
+java:S2293µ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÄŸÊ¹şÿÿÿÿ
+@
+java:S2157"%Add a "clone()" method to this class.(ÈÅÅûÿÿÿÿ
+<
+java:S1659±" Declare "tr" on a separate line.(‹ç¯Åûÿÿÿÿ
+i
+java:S3776•"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(­ç¨©
+J
+java:S1121".Extract the assignment out of this expression.(š³Ãáûÿÿÿÿ
+˜
+java:S1186Ó"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—¹œİ
+n	java:S127Õ"XRefactor the code in order to not assign to this loop counter from within the loop body.(ïã¯Ñ
+J
+java:S1121¬".Extract the assignment out of this expression.(£Ç×Ùşÿÿÿÿ
+6
+java:S1659Â"Declare "e" on a separate line.(Ñ–ıÔ
+s	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(òŒöÿÿÿÿÿ
+Z
+java:S2259ò"CA "NullPointerException" could be thrown; "table" is nullable here.(ò½€µ
+E
+java:S1121Å".Extract the assignment out of this expression.(ìê­ˆ
+
+java:S1186Ö"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(çÎ·©şÿÿÿÿ
+<
+java:S1659±" Declare "tl" on a separate line.(‹ç¯Åûÿÿÿÿ
+7
+java:S1659¢" Declare "pl" on a separate line.(’«Ï†
+H
+java:S1172•"1Remove this unused method parameter "kvHashMap8".(­ç¨©
+i
+java:S3776·"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(àÁ‡
+i
+java:S3776°"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÿúŸæ
+n	java:S127Ş"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÂÛæÏ
+C
+java:S1481‡"'Remove this unused "pr" local variable.(£ö«ÿÿÿÿÿ
+n	java:S127¥"XRefactor the code in order to not assign to this loop counter from within the loop body.(óº„‹
+7
+java:S1659š" Declare "fn" on a separate line.(Ù˜ÃÍ
+7
+java:S1659¢" Declare "pp" on a separate line.(’«Ï†

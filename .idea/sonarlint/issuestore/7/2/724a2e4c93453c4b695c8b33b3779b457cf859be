@@ -1,0 +1,14 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¸¾¢‘þÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ºÂÊöþÿÿÿÿ
+N	java:S106
+"9Replace this use of System.out or System.err by a logger.(ÉëË“
+K
+java:S1068"0Remove this unused "finalizeDemo" private field.(úû”üÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(òÁóûÿÿÿÿ
+v
+java:S1450"[Remove the "finalizeDemo" field and declare it as a local variable in the relevant methods.(úû”üÿÿÿÿ
+L
+java:S2696"6Make the enclosing method "static" or remove this set.(¼ŠÝÿ
+H
+java:S1113"-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ
