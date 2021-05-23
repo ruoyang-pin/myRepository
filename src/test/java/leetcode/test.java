@@ -1,12 +1,11 @@
 package leetcode;
 
+import node.TreeNode;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
+
 
 @sun.misc.Contended
 public class test {
@@ -95,6 +94,10 @@ public class test {
 
     }
 
+    /**
+     * 递归边界:  needs至少有一个元素为0
+     */
+
     public int dfs(List<Integer> price, List<List<Integer>> special, List<Integer> needs) {
         int res = 0;
         // 没有使用大礼包的时候，我们须要花多少钱
@@ -110,7 +113,7 @@ public class test {
                 int diff = clone.get(j) - item.get(j);
                 if (diff < 0) {
                     // 须要的 < 大礼包
-                    break ;
+                    break;
                 }
                 // 须要的部分越来越少，set 的意思是在做减法
                 clone.set(j, diff);
@@ -124,6 +127,43 @@ public class test {
         return res;
     }
 
+    /**
+     * 二叉树展开为链表
+     * 1             1
+     * /  \    -->      \
+     * 2    5             2
+     * \
+     * 5
+     *
+     * @see <a href="https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/"></a>
+     */
+    @Test
+    public void flatten() {
+        TreeNode node = new TreeNode(1);
+        node.left = new TreeNode(2, new TreeNode(3), new TreeNode(4));
+        node.right = new TreeNode(5,null, new TreeNode(6));
+        treeBin(node);
+        System.out.println(node);
+    }
+
+    public TreeNode treeBin(TreeNode node) {
+        TreeNode right = node.right, left = node.left, rightLeft,leftLeft;
+
+        leftLeft = left != null ? treeBin(left) : node;
+
+        if (right != null)
+            rightLeft = treeBin(right);
+        else
+            rightLeft = leftLeft;
+
+        node.left = null;
+
+        leftLeft.right = right;
+
+        node.right=left!=null? left:right;
+
+        return rightLeft;
+    }
 
 
 }
